@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Info on my work
+title: Info on my work with F4PGA
 ---
 
   * [Designs I've Made]({{ site.baseurl }}{% link _pages/log.md %})

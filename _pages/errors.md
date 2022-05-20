@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Current Errors I'm Facing:
+title: Current Errors I'm Facing
 ---
 
 

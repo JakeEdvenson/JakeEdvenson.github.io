@@ -1,1 +1,4 @@
-Current Goals I have: 
+---
+layout: default
+title: Current Goals I Have
+---

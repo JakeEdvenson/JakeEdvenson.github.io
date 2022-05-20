@@ -20,3 +20,6 @@ Equivalent w/ F4PGA | Yes | No | No | No | No | No | No | No | | | | | | | |
 ### [alu.v]({{ site.baseurl }}{% link designs/alu.v %}):
 A file meant to act as a module for larger-scale designs. It can perform calculations such as add, subtract, shift, and other basic logic functions.
 
+
+###  [oneshot.v]({{ site.baseurl }}{% link designs/oneshot.v %}):
+A debouncing design used to confirm a button is only pressed once. Adapted into Verilog from Dr. Mike Wirthlin's SystemVerilog design.

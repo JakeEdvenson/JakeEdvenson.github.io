@@ -1,13 +1,11 @@
 ---
 layout: default
-title: IMMERSE Log
+title: My Designs
 ---
 
-### Week 1: April 26, 2021
+**Progress on 15 Designs Goal: **
 
-* **Monday**: 
-* **Tuesday**: 
-* **Wednesday**: 
-* **Thursday**: 
-* **Friday**:
+Design # | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+
 

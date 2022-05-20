@@ -1,1 +1,6 @@
-Current Errors I'm facing: 
+---
+layout: default
+title: Current Errors I'm Facing:
+---
+
+

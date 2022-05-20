@@ -3,6 +3,8 @@ layout: default
 title: Current Errors I'm Facing
 ---
 
+------
+
 ## regfile.v Errors:
 This file currently comes back unequivalent due to the array of registers in it. When having to select between 32 registers, the tools seem to do something that results in the output being different than what they input. 
 

@@ -23,3 +23,7 @@ A file meant to act as a module for larger-scale designs. It can perform calcula
 
 ###  [oneshot.v]({{ site.baseurl }}{% link designs/oneshot.v %}):
 A debouncing design used to confirm a button is only pressed once. Adapted into Verilog from Dr. Mike Wirthlin's SystemVerilog design.
+
+### [calc.v]({{ site.baseurl }}{% link designs/calc.v %}):
+*Note: requires alu.v and oneshot.v*
+A top-level alu file that can perform simple calculations.

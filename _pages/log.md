@@ -46,6 +46,6 @@ A state machine that increments the values on the LEDs when buttons are pressed.
 ### [regfile.v]({{ site.baseurl }}{% link designs/regfile.v %}):
 A simple design to organize data into 32 registers, write to 1, and receive data from 2. 
 
-### [riscvSimpleDatapath.v]({{ site.baseurl }}{% link designs/riscvSimpleDatapth.v %}):
+### [riscvSimpleDatapath.v]({{ site.baseurl }}{% link designs/riscvSimpleDatapath.v %}):
 A top-level design that creates a simple risc-v datapath from alu's and registers. *Note: requires alu.v, regfile.v, and oneshot.v*
 

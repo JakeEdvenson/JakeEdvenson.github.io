@@ -41,7 +41,7 @@ A state machine that increments the values on the LEDs when buttons are pressed.
 
 -----
 
-## Design Files (not with Yosys)
+## Design Files (not working with Yosys)
 
 ### [regfile.v]({{ site.baseurl }}{% link designs/regfile.v %}):
 A simple design to organize data into 32 registers, write to 1, and receive data from 2. 

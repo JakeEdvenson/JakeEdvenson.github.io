@@ -24,5 +24,14 @@ Fix regile.v first. Then look into riscvSimpleDatapath.v
 
 ------
 
+#### buttoncount.v
+This file has an error with btnu_d going to inc. For some reason, if btnu goes straight to inc, it works correctly.
+
+### [Debug File]({{ site.baseurl }}{% link bugFiles/buttoncount.v %}):
+The smallest (so far) I've been able to narrow down this design. 
+
+### Resolution Plan:
+Keep reducing the code until I can find something that causes this issue.
+
 
 

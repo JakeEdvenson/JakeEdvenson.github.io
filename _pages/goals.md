@@ -9,7 +9,7 @@ title: My Goals
 * Document every significant design by adding it to the F4PGA repository
 
 ### Current Things I am working on
-*Last updated on 5/23/2022*
-* Updating fasm2bels with alu.v being documented as an equivalent design.
-* Creating a bugs folder for my designs that are bugged.
+*Last updated on 5/24/2022*
 * Narrowing down my designs with bugs to the smallest possible design. 
+* Test equivalence on a few more designs
+* Fix pull request for BYU Bootcamp github page

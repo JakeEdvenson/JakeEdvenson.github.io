@@ -9,9 +9,9 @@ title: My Designs
 
 Design # | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
-Design Name | alu.v  | oneshot.v  | regfile.v  | UpDownButtonCount.v  | lightshow.v  | calc.v  | shiftreg.v  | riscvSimpleDatapath.v  |  |  |  |  |  |  | 
-Works with Yosys | Yes | Yes | No | Yes | Yes | Yes | Yes | No |  |  |  |  |  |  | 
-Equivalent w/ F4PGA | Yes | Yes | No | No | No | Yes | No | No | | | | | | | | 
+Design Name | alu.v  | oneshot.v  | regfile.v  | UpDownButtonCount.v  | lightshow.v  | calc.v  | shiftreg.v  | riscvSimpleDatapath.v  | buttoncount.v |  |  |  |  |  | 
+Works with Yosys | Yes | Yes | No | Yes | Yes | Yes | Yes | No | Yes |  |  |  |  |  | 
+Equivalent w/ F4PGA | Yes | Yes | No | No | No | Yes | No | No | Yes | | | | | | | 
 
 ------
 
@@ -38,6 +38,9 @@ A top-level design that operates the shiftReg file. *Note: requires oneshot.v an
 
 ### [UpDownButtonCount.v]({{ site.baseurl }}{% link designs/UpDownButtonCount.v %}):
 A state machine that increments the values on the LEDs when buttons are pressed. 
+
+### [buttoncount.v]({{ site.baseurl }}{% link designs/buttoncount.v %}):
+A state machine that can only increase the LEDs. I include this because of strange errors it produced in the past *Note: requires oneshot.v*
 
 -----
 

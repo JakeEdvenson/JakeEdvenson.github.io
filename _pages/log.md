@@ -11,7 +11,7 @@ Design # | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
 Design Name | alu.v  | oneshot.v  | regfile.v  | UpDownButtonCount.v  | lightshow.v  | calc.v  | shiftreg.v  | riscvSimpleDatapath.v  |  |  |  |  |  |  | 
 Works with Yosys | Yes | Yes | No | Yes | Yes | Yes | Yes | No |  |  |  |  |  |  | 
-Equivalent w/ F4PGA | Yes | No | No | No | No | No | No | No | | | | | | | | 
+Equivalent w/ F4PGA | Yes | Yes | No | No | No | Yes | No | No | | | | | | | | 
 
 ------
 

@@ -11,5 +11,5 @@ title: My Goals
 ### Current Things I am working on
 *Last updated on 5/24/2022*
 * Narrowing down my designs with bugs to the smallest possible design. 
-* Test equivalence on a few more designs
-* Fix pull request for BYU Bootcamp github page
+* Test equivalence on a few more designs *(complete)*
+* Fix pull request for BYU Bootcamp github page *(complete)*

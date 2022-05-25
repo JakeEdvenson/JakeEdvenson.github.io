@@ -11,4 +11,4 @@ title: My Goals
 ### Current Things I am working on
 *Last updated on 5/25/2022*
 * Narrowing down my designs with bugs to the smallest possible design. 
-* Fix PR for fasm2bels so every commit is signed.
+* Fix PR for fasm2bels so every commit is signed. _(Completed)_

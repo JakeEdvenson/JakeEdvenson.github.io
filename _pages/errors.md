@@ -15,7 +15,7 @@ The smallest design of regfile that still has Yosys compiliation issues.
 Create the tiniest design of regfile that I can that still receives this error. Analyze the issue at this point and then look into Yosys' source code to see where the issue lies.
 
 ### Discoveries Found:
-After performing some TCL tests and analysis, I believe I've found a potential answer. The reversed-netlist version of regfile.v uses a component called a BUFGCTRL. The golden version of this file only uses a BUFG. The BUFGCTRL component involves the clock signal and is generally meant for debugging. From TCL testing, I found that the output signal, readData, is getting the correct values but is getting it at differing rates. There are 7 different signals that mirror the output and each one changes from 0 to 1 at a different time than another one. Perhaps this is being caused by the BUFGCTRL component and could be fixed by having yosys default to using BUFGs instead. 
+After performing some TCL tests and analysis, I believe I've found a potential answer. The reversed-netlist version of regfile.v uses a component called a BUFGCTRL. The golden version of this file only uses a BUFG. The BUFGCTRL component involves the clock signal and is generally meant for debugging. From TCL testing, I found that the output signal, readData, is getting the correct values but is getting it at differing rates. There are 7 different signals that mirror the output and each one changes from 0 to 1 at a different time than another one. Perhaps this is being caused by the BUFGCTRL component and could be fixed by having yosys default to using BUFGs instead.  
 
 ------
 

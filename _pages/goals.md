@@ -9,7 +9,6 @@ title: My Goals
 * Document every significant design by adding it to the F4PGA repository
 
 ### Current Things I am working on
-*Last updated on 5/30/2022*
+*Last updated on 5/31/2022*
 * Comparing the vivado netlist and the reversed netlist of Regfile.v.
-* Analyze each component used in the vivado netlist and the reversed netlist to see what makes the difference between the two designs.
-* Trace the design using the components I've listed to see if something is incorrect. (Finished tracing Golden regfile. Working on the reversed netlist next.)
+* Find out if a RAM32X1D could be causing the issue with yosys.

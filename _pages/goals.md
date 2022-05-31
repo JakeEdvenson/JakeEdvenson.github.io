@@ -12,3 +12,4 @@ title: My Goals
 *Last updated on 5/31/2022*
 * Comparing the vivado netlist and the reversed netlist of Regfile.v.
 * Find out if a RAM32X1D could be causing the issue with yosys.
+* Create a design utilizing RAM32's.

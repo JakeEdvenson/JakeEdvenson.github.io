@@ -9,6 +9,6 @@ title: My Goals
 * Document every significant design by adding it to the F4PGA repository
 
 ### Current Things I am working on
-*Last updated on 6/1/2022*
+*Last updated on 6/2/2022*
 * Comparing the vivado netlist and the reversed netlist of Regfile.v.
 * Looking into why another version of regfile.v I made works properly when the one utilizing a RAM32X1D does not. 

@@ -11,3 +11,4 @@ title: My Goals
 ### Current Things I am working on
 *Last updated on 6/7/2022*
 * Begin performing comparisons on the two. (Created a script that generates the two files and compares them automatically.)
+* Begin performing tests using icarus and/or verilator to confirm if these "unequivalent" designs are actually the same or not. 
